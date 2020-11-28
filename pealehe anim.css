@@ -212,3 +212,10 @@ section p {
 .aligncenter {
     text-align: center;
 }
+button {
+  opacity: 0.2;
+}
+
+button:hover {
+  opacity: 1.0;
+}
