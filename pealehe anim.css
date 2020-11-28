@@ -30,7 +30,7 @@ body {
       );
     background-size: 400%;
     animation: bganimation 15s infinite;
-
+    
     height: 100vh;
     overflow: hidden;
 
@@ -43,7 +43,7 @@ body {
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
-
+    
 }
 
 .navbar {
@@ -93,6 +93,7 @@ section {
 }
 
 section h1 {
+    font-size: 3rem;
 
 }
 
@@ -167,33 +168,34 @@ section p {
     justify-content: center;
     align-items: center;
     padding: 60px;
+    color:  rgb(245, 180, 209);
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    min-width: 400px;
+    width: 400px;
     margin: 20px;
     text-align: center;
-    background-color: tomato;
+    background-color: white;
 }
-
+  
 .price {
-    color: grey;
+    color: rgb(245, 180, 209);
     font-size: 22px;
 }
-
+  
 .card button {
     border: none;
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: rgb(0, 156, 168);
     text-align: center;
     cursor: pointer;
     width: 100%;
     font-size: 18px;
 }
-
+  
 .card button:hover {
     opacity: 0.7;
 }
@@ -208,14 +210,4 @@ section p {
     100%{
         background-position: 0% 50%;
     }
-}
-.aligncenter {
-    text-align: center;
-}
-button {
-  opacity: 0.2;
-}
-
-button:hover {
-  opacity: 1.0;
 }
