@@ -1,0 +1,84 @@
+@import url("https://p.typekit.net/p.css?s=1&k=cti8emm&ht=tk&f=22792&a=36891339&app=typekit&e=css");
+
+@font-face {
+font-family:"source-serif-pro";
+src:url("https://use.typekit.net/af/95c60b/00000000000000003b9b4050/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/95c60b/00000000000000003b9b4050/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/95c60b/00000000000000003b9b4050/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+.tk-source-serif-pro { font-family: "source-serif-pro",serif; }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "source-serif-pro", serif;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contact-form{
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(0, 156, 168, 0.5);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: #000000 10px;
+    font-size: 1.5rem;
+
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    
+
+}
+
+.input-fields,
+.msg{
+    width: 48%;
+
+}
+
+.input-fields .input,
+.msg textarea{
+    margin: 30px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+    font-size: 1.2rem;
+
+}
+
+.msg textarea{
+    height: 212px;   
+}
+
+
+.btn{
+    background: rgb(245, 180, 209);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    opacity: 1.0;
+}
+
