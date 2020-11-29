@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://use.typekit.net/cti8emm.css">
     <title>Mätja folk</title>
     <link rel="stylesheet" href="pealehe anim.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 </head>
@@ -15,19 +14,19 @@
     <div class="container">
         <nav class="navbar">
             <ul>
-                <li><a href="#home">Kodu</a></li>
-                <li><a href="#meist">Meie lugu</a></li>
-                <li><a href="#galerii">Galerii</a></li>
-                <li><a href="#aftermovie">Aftermovie</a></li>
-                <li><a href="#Uudiskiri">Uudiskiri</a></li>
-                <li><a href="kontakt.html">Võta ühendust</a></li>
-                <li><a href="pood.html">Pood</a></li>
+                <li><a href="#home">kodu</a></li>
+                <li><a href="#meist">meie lugu</a></li>
+                <li><a href="#galerii">galerii</a></li>
+                <li><a href="#aftermovie">aftermovie</a></li>
+                <li><a href="#uudiskiri">uudiskiri</a></li>
+                <li><a href="kontakt.html">võta ühendust</a></li>
+                <li><a href="pood.html">pood</a></li>
             </ul>
         </nav>
 
         <section id="home">
             <h1>Mätja Folk.</h1>
-            <p></p>
+            <p>14. - 16. august 2021, ikka seal, kus varemgi.</p>
         </section>
 
         <section id="meist">
@@ -36,7 +35,7 @@
                 Mätja folk on 2020 suvel ilmavalgust näinud kultuuri ja muusikafestival, mis
                 leidis  aset meie ilusal Saaremaal imearmsas, 
                 eestimaises ning külaelumaiguses Mätja külas, 
-                mis on täieskoossesius festivali mõjuvõimu all.
+                mis on täies koossesius festivali mõjuvõimu all.
             </p>
             <br>
             <p>
@@ -49,36 +48,40 @@
             </p>
         </section>
 
-        <section>
-          <div class="w3-content w3-display-container">
-            <h1>Galerii</h1>
-            <p class="aligncenter">
-              <img class="mySlides" src="pildid pealeht/lava1.jpg" style="width:100%;object-fit: contain">
-              <img class="mySlides" src="pildid pealeht/lava2.jpg" style="width:100%">
-              <img class="mySlides" src="pildid pealeht/lava3.jpg" style="width:100%">
-              <img class="mySlides" src="pildid pealeht/võrkpall2.jpg" style="width:100%">
-              <img class="mySlides" src="pildid pealeht/baar2.jpg" style="width:100%">
-              <img class="mySlides" src="pildid pealeht/buratino4.jpg" style="width:100%">
-
-              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-            </p>
-              <script src="meiejs.js"></script>
-
-          </div>
+        <section id="galerii">
+            <h1>meenutusi eelmisest aastast...</h1>
+            <div class="slideshow-container">
+    
+                <!-- pildid koos faderiga -->
+                <div class="mySlides fade">
+                  <img src="pildid pealeht/lava1.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="pildid pealeht/lava2.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="pildid pealeht/lava3.jpg" style="width:100%">
+                </div>
+              
+                <!-- edasi-tagasi nupud -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <script src="meiejs.js"></script>
+            </div>
         </section>
 
         <section id="aftermovie">
             <h1>Mätja Folgil valminud aftermovie</h1>
-            <p class="aligncenter">
-                <iframe width="896" height="504" src="https://www.youtube.com/embed/E3qyjgWsfZw" frameborder="0"
+            <p>
+                <iframe style="width:800px; height: 400px" src="https://www.youtube.com/embed/E3qyjgWsfZw" frameborder="0"
                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </p>
         </section>
 
-        <div>
-        <section id="Uudiskiri">
+        <section id="uudiskiri">
             <h1>Uudiskiri</h1>
             <p>Soovid olla esimene, kes Mätja Folgi uudiseid saab?</p>
             <div class="form">
@@ -88,8 +91,7 @@
                 </label>
             </div>
         </section>
-        </div>
-
     </div>
+
 </body>
 </html>

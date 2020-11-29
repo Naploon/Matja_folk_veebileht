@@ -27,27 +27,23 @@ font-display:auto;font-style:normal;font-weight:400;
 .contact-form{
     max-width: 1000px;
     margin: 0 auto;
-    background: rgba(0, 156, 168, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     padding: 30px;
     border-radius: 5px;
     display: flex;
-    box-shadow: #000000 10px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
     font-size: 1.5rem;
-
 }
 
 .input-fields{
     display: flex;
     flex-direction: column;
     margin-right: 4%;
-    
-
 }
 
 .input-fields,
 .msg{
     width: 48%;
-
 }
 
 .input-fields .input,
@@ -55,9 +51,9 @@ font-display:auto;font-style:normal;font-weight:400;
     margin: 30px 0;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid #c5ecfd;
+    border-bottom: 2px solid rgb(0, 156, 168);
     padding: 10px;
-    color: #c5ecfd;
+    color: rgb(0, 156, 168); /* tekstivärv*/
     width: 100%;
     font-size: 1.2rem;
 
@@ -80,5 +76,6 @@ font-display:auto;font-style:normal;font-weight:400;
 
 .btn:hover{
     opacity: 1.0;
+    font-weight: 600;
 }
 
