@@ -1,7 +1,7 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// Järgmise/eelmise kontrollid
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
